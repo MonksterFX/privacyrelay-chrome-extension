@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    margin: 0;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 25px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: white;
+    height: 100%;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-field label{
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.input-field input{
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 10px;
+    min-width: 250px;
+}

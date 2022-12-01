@@ -20,9 +20,10 @@ function generateUID(size=6){
 /**
  * creates privacy mail with pattern [random-uid]@[hostname]
  * @param {string} hostname
+ * @param {number} length
  */
-function createPrivacyEmail(hostname){
-    const uid = generateUID()
+function createPrivacyEmail(hostname, length=6){
+    const uid = generateUID(length)
     return `${uid}@${hostname}`
 }
 

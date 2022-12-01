@@ -6,7 +6,7 @@ body{
     display: grid;
     margin: 0;
     justify-content: center;
-    background-color: aquamarine;
+    background-color: #F9BF35;
     padding: 25px;
 }
 
@@ -16,6 +16,7 @@ body{
     padding: 25px;
     background-color: white;
     height: 100%;
+    border-radius: 25px;
 }
 
 .input-field{
@@ -34,4 +35,12 @@ body{
     height: 25px;
     padding-left: 10px;
     min-width: 250px;
+}
+
+button{
+    width: 100%;
+    background-color: #F9BF35;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
 }
